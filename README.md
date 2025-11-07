@@ -108,7 +108,7 @@ breast-cancer-ml-interpretability/
   <img src="report/figures/Top10_important_features.png" alt="ROC Curve" width="500"/>
 </p>
 
-
+---
 # Detailed Error analysis
 ## Confusion Matrix
 <p align="center">
@@ -142,6 +142,16 @@ The top predictive features included:
 These correspond to known medical indicators of tumour irregularity and malignancy, reinforcing the model’s reliability and transparency.
 
 ---
+## Conclusion
+In this case study, an interpretable machine learning model for breast cancer classification was successfully developed. The CRISP-DM methodology was followed from data understanding to deployment planning. 
+Class distribution, outlier detection, feature distribution, correlation heatmap and scatterplots were done during the EDA – Exploratory Data Analysis. It was confirmed that features like the tumour size, irregular shape and texture variation are key indicators of Malignant cancer. This is consistent with established medical knowledge. 
+The data was cleaned and one-hot encoded during the preparation phase. Multiple models were trained and tested on the same data. The performance of the model and the interpretability of the models were weighed to determine the best model for the task.
+The optimized Logistic Regression model achieved the best performance with an overall accuracy of 0.9737 and a F1 score of 0.9639. Model transparency together with an easy to explain model, builds trust with oncologist in the system.
+The proposed GUI shows how a model might be integrated into hospitals. Despite the model's good performance, real world deployment will require periodic retraining to prevent model drift. Future improvements may include more features on the GUI and an integration into a MLOps pipeline for continuous monitoring.
+This project demonstrated that interpretable Machine Learning models can serve as a valuable decision support tool for oncologists. The goal is to assist, not replace expert judgement with reliable, data driven insights.  
+
+---
+
 
 ## License
 
