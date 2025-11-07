@@ -57,27 +57,36 @@ breast-cancer-ml-interpretability/
 ```
 ## EDA
 # Diagnosis Distribution
-
+![ROC Curve](report/figures/Class_distribution_of_benign_and_malignant_diagnoses.png)
 
 # Hist & KDE
-
+![ROC Curve](report/figures/Feuture_distribution.png)
 
 
 # Boxplots
+![ROC Curve](report/figures/top_features_pairplot.png)
 
+![ROC Curve](report/figures/feature_relationships_scatter_radius_mean.png)
 
 # Pair plots
-
+![ROC Curve](report/figures/roc_curve_logreg.png)
+![ROC Curve](report/figures/feature_relationships_scatter_radius_mean.png)
 
 # Correlation Heatmap
-
+![ROC Curve](report/figures/Feature_correlation_heatmap.png)
 
 # Model Results
-
+![ROC Curve](report/figures/6_Models_results.png)
+![ROC Curve](report/figures/test_results.png)
 
 # ROC AUC
 ![ROC Curve](report/figures/roc_curve_logreg.png)
 
+# Confusion Matrix
+![ROC Curve](report/figures/confusion_matrix_logreg.png)
+
+# Top 10 Import features
+![ROC Curve](report/figures/Top10_important_features.png)
 
 
 
