@@ -55,6 +55,12 @@ breast-cancer-ml-interpretability/
 └── README.md
 
 ```
+
+<p align="center">
+  <img src="report/figures/Class_distribution_of_benign_and_malignant_diagnoses.png" alt="ROC Curve" width="500"/>
+</p>
+
+
 ## EDA graphs
 # Diagnosis Distribution
 ![ROC Curve](report/figures/Class_distribution_of_benign_and_malignant_diagnoses.png)
