@@ -1,7 +1,7 @@
 # Interpretabile_Breast_Cancer_ML_Model
 As part of my BSc Data Science in the subject - Model Engineering: Development of an Interpretable Model for Breast Cancer Prediction.
 
-# 🧠 Interpretable Breast Cancer Prediction Model
+# Interpretable Breast Cancer Prediction Model
 
 This repository contains the implementation of a **transparent and interpretable machine learning model** designed to predict whether a breast tumour is **benign (B)** or **malignant (M)** based on diagnostic features from the **UCI Breast Cancer Wisconsin Dataset**.
 
@@ -9,14 +9,14 @@ The project was completed as part of the **Model Engineering (DLBDSME01)** modul
 
 ---
 
-## 🗂️ Project Overview
+## Project Overview
 - **Objective:** Develop an interpretable, high-performing classification model for breast cancer detection.  
 - **Goal:** Achieve F1-score ≥ 0.95 and provide feature-level interpretability to support oncologist decision-making.  
 - **Methodology:** Follows the **CRISP-DM** process (Business Understanding → Data Understanding → Preparation → Modeling → Evaluation → Deployment).  
 
 ---
 
-## ⚙️ Repository Structure
+## Repository Structure
 ```bash
 breast-cancer-ml-interpretability/
 │
@@ -44,3 +44,13 @@ breast-cancer-ml-interpretability/
 │
 ├── requirements.txt
 └── README.md
+
+```
+| Metric   | Score  |
+| :------- | :----- |
+| Accuracy | 0.9737 |
+| F1-Score | 0.9639 |
+| ROC-AUC  | 0.996  |
+
+
+
