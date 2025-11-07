@@ -105,29 +105,28 @@ breast-cancer-ml-interpretability/
 
 # Top 10 Import features
 <p align="center">
-  <img src="report/figures/boxplots_outlier_detection.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/Top10_important_features" alt="ROC Curve" width="500"/>
 </p>
-![ROC Curve](report/figures/boxplots_outlier_detection.png)
 
 
 ## Detailed Error analysis
 # Confusion Matrix
 <p align="center">
-  <img src="report/figures/boxplots_outlier_detection.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/confusion_matrix_logreg.png" alt="ROC Curve" width="500"/>
 </p>
-![ROC Curve](report/figures/confusion_matrix_logreg.png)
+
 
 # ROC AUC
 <p align="center">
-  <img src="report/figures/boxplots_outlier_detection.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/roc_curve_logreg.png" alt="ROC Curve" width="500"/>
 </p>
-![ROC Curve](report/figures/roc_curve_logreg.png)
+
 
 # FP & FN distribution
 <p align="center">
-  <img src="report/figures/boxplots_outlier_detection.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/error_analysis_combined.png" alt="ROC Curve" width="500"/>
 </p>
-![ROC Curve](report/figures/error_analysis_combined.png)
+
 
 
 ---
