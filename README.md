@@ -105,7 +105,7 @@ breast-cancer-ml-interpretability/
 
 # Top 10 Import features
 <p align="center">
-  <img src="report/figures/Top10_important_features" alt="ROC Curve" width="500"/>
+  <img src="report/figures/Top10_important_features.png" alt="ROC Curve" width="500"/>
 </p>
 
 
