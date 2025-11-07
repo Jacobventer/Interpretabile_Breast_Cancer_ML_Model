@@ -108,6 +108,7 @@ breast-cancer-ml-interpretability/
 
 ---
 # Detailed Error analysis
+A detailed error analysis was done to investigate the three misclassified cases. 
 ## Confusion Matrix
 <p align="center">
   <img src="report/figures/confusion_matrix_logreg.png" alt="ROC Curve" width="500"/>
