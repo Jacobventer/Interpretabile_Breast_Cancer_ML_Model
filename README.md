@@ -55,7 +55,7 @@ breast-cancer-ml-interpretability/
 └── README.md
 
 ```
-## EDA
+## EDA graphs
 # Diagnosis Distribution
 ![ROC Curve](report/figures/Class_distribution_of_benign_and_malignant_diagnoses.png)
 
@@ -69,7 +69,7 @@ breast-cancer-ml-interpretability/
 ![ROC Curve](report/figures/feature_relationships_scatter_radius_mean.png)
 
 # Pair plots
-![ROC Curve](report/figures/roc_curve_logreg.png)
+![ROC Curve](report/figures/pairwise_relationship_Top4_features.png)
 ![ROC Curve](report/figures/feature_relationships_scatter_radius_mean.png)
 
 # Correlation Heatmap
@@ -82,23 +82,22 @@ breast-cancer-ml-interpretability/
 # ROC AUC
 ![ROC Curve](report/figures/roc_curve_logreg.png)
 
-# Confusion Matrix
-![ROC Curve](report/figures/confusion_matrix_logreg.png)
 
 # Top 10 Import features
 ![ROC Curve](report/figures/Top10_important_features.png)
 
 
+## Detailed Error analysis
+# Confusion Matrix
+![ROC Curve](report/figures/confusion_matrix_logreg.png)
 
 
+# ROC AUC
+![ROC Curve](report/figures/roc_curve_logreg.png)
 
+# FP & FN distribution
+![ROC Curve](report/figures/error_analysis_combined.png)
 
-## Results Summary
-| Metric   | Score  |
-| :------- | :----- |
-| Accuracy | 0.9737 |
-| F1-Score | 0.9639 |
-| ROC-AUC  | 0.996  |
 
 ---
 
