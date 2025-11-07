@@ -56,8 +56,7 @@ breast-cancer-ml-interpretability/
 
 ```
 
-<p align="center">
-  <img src="report/figures/Class_distribution_of_benign_and_malignant_diagnoses.png" alt="ROC Curve" width="500"/>
+<p <img src="report/figures/Class_distribution_of_benign_and_malignant_diagnoses.png" alt="ROC Curve" width="500"/>
 </p>
 
 
