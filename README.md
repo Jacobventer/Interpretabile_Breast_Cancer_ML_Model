@@ -35,8 +35,8 @@ breast-cancer-ml-interpretability/
 │   └── external/           
 │
 ├── notebooks/
-│   ├── 01_EDA.ipynb        
-│   └── 02_Model_Training.ipynb  
+│   ├── 01_EDAv3.ipynb        
+│   └── 02_Model_Trainingv2.ipynb  
 │
 ├── src/
 │   ├── data_preprocessing.py   
@@ -44,7 +44,7 @@ breast-cancer-ml-interpretability/
 │   └── visualization.py        
 │
 ├── models/
-│   ├── saved_models/           
+│   ├── saved_model/           
 │   └── model_results/          
 │
 ├── reports/
@@ -55,6 +55,35 @@ breast-cancer-ml-interpretability/
 └── README.md
 
 ```
+## EDA
+# Diagnosis Distribution
+
+
+# Hist & KDE
+
+
+
+# Boxplots
+
+
+# Pair plots
+
+
+# Correlation Heatmap
+
+
+# Model Results
+
+
+# ROC AUC
+
+
+
+
+
+
+
+
 ## Results Summary
 | Metric   | Score  |
 | :------- | :----- |
