@@ -76,7 +76,7 @@ breast-cancer-ml-interpretability/
 
 
 # ROC AUC
-![ROC Curve](reports/ROC curve.png)
+![ROC Curve](reports/roc_curve_logreg.png)
 
 
 
