@@ -13,41 +13,71 @@ The project was completed as part of the Model Engineering  module for the BSc D
 
 ---
 
+## CRISP-DM Framework
+
+This project followed the CRISP-DM (Cross Industry Standard Process for Data Mining) methodology:
+1. Business Understanding: Define project goals and success criteria
+2. Data Understanding: Load and explore data for patterns and bias
+3. Data Preparation: Clean, encode, and scale features
+4. Modeling: Train and compare six ML algorithms
+5. Evaluation: Assess accuracy, precision, recall, F1, and ROC-AUC
+6. Deployment: Save optimized model and propose a GUI for clinical use
+
+---
+
 ## Repository Structure
 ```bash
 breast-cancer-ml-interpretability/
 │
 ├── data/
-│   ├── raw/                # Original dataset (not uploaded)
-│   ├── processed/          # Cleaned & encoded data for model input
-│   └── external/           # Placeholder for external datasets
+│   ├── raw/                
+│   ├── processed/          
+│   └── external/           
 │
 ├── notebooks/
-│   ├── 01_EDA.ipynb        # Exploratory Data Analysis
-│   └── 02_Model_Training.ipynb  # Model training, tuning, evaluation
+│   ├── 01_EDA.ipynb        
+│   └── 02_Model_Training.ipynb  
 │
 ├── src/
-│   ├── data_preprocessing.py   # Cleaning, encoding, scaling
-│   ├── model_training.py       # Model training & optimization pipeline
-│   └── visualization.py        # All plots & charts
+│   ├── data_preprocessing.py   
+│   ├── model_training.py       
+│   └── visualization.py        
 │
 ├── models/
-│   ├── saved_models/           # logistic_regression_final_20251106.joblib
-│   └── model_results/          # final_model_result_metrics.csv
+│   ├── saved_models/           
+│   └── model_results/          
 │
 ├── reports/
-│   ├── figures/                # All generated plots
-│   └── final_report.pdf        # Final written report
+│   ├── figures/                
+│   └── final_report.pdf        
 │
 ├── requirements.txt
 └── README.md
 
 ```
+## Results Summary
 | Metric   | Score  |
 | :------- | :----- |
 | Accuracy | 0.9737 |
 | F1-Score | 0.9639 |
 | ROC-AUC  | 0.996  |
 
+---
 
+## Model Interpretability
+The Logistic Regression coefficients were used to rank feature importance.
+The top predictive features included:
+- radius_se
+- texture_worst
+- concavity_worst
+- area_worst
+
+These correspond to known medical indicators of tumour irregularity and malignancy, reinforcing the model’s reliability and transparency.
+
+---
+
+## License
+
+This repository is released for educational and academic purposes only.
+It must not be used for clinical or diagnostic decision-making.
 
