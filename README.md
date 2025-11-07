@@ -56,9 +56,7 @@ breast-cancer-ml-interpretability/
 
 ```
 
-
-
-
+---
 # EDA graphs
 ## Diagnosis Distribution
 <p align="center">
