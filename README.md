@@ -59,24 +59,24 @@ breast-cancer-ml-interpretability/
 
 
 
-## EDA graphs
-# Diagnosis Distribution
+# EDA graphs
+## Diagnosis Distribution
 <p align="center">
   <img src="report/figures/Class_distribution_of_benign_and_malignant_diagnoses.png" alt="ROC Curve" width="500"/>
 </p>
 
-# Hist & KDE
+## Hist & KDE
 
 <p align="center">
   <img src="report/figures/Feuture_distribution.png" alt="ROC Curve" width="500"/>
 </p>
 
-# Boxplots
+## Boxplots
 <p align="center">
   <img src="report/figures/boxplots_outlier_detection.png" alt="ROC Curve" width="500"/>
 </p>
 
-# Pair plots
+## Pair plots
 <p align="center">
   <img src="report/figures/pairwise_relationship_Top4_features.png" alt="ROC Curve" width="500"/>
 </p>
@@ -86,14 +86,14 @@ breast-cancer-ml-interpretability/
 </p>
 
 
-# Correlation Heatmap
+## Correlation Heatmap
 
 <p align="center">
   <img src="report/figures/Feature_correlation_heatmap.png" alt="ROC Curve" width="500"/>
 </p>
 
 
-# Model Results
+## Model Results
 <p align="center">
   <img src="report/figures/6_Models_results.png" alt="ROC Curve" width="500"/>
 </p>
@@ -103,26 +103,26 @@ breast-cancer-ml-interpretability/
 </p>
 
 
-# Top 10 Import features
+## Top 10 Import features
 <p align="center">
   <img src="report/figures/Top10_important_features.png" alt="ROC Curve" width="500"/>
 </p>
 
 
-## Detailed Error analysis
-# Confusion Matrix
+# Detailed Error analysis
+## Confusion Matrix
 <p align="center">
   <img src="report/figures/confusion_matrix_logreg.png" alt="ROC Curve" width="500"/>
 </p>
 
 
-# ROC AUC
+## ROC AUC
 <p align="center">
   <img src="report/figures/roc_curve_logreg.png" alt="ROC Curve" width="500"/>
 </p>
 
 
-# FP & FN distribution
+## FP & FN distribution
 <p align="center">
   <img src="report/figures/error_analysis_combined.png" alt="ROC Curve" width="500"/>
 </p>
