@@ -7,9 +7,9 @@ The project was completed as part of the Model Engineering  module for the BSc D
 ---
 
 ## Project Overview
-- Objective: Develop an interpretable, high-performing classification model for breast cancer detection.  
+- Task: Support a group of oncologists with the interpretable prediction model to allow for additional indications that can be produced automatically as well as support understanding to ease technology acceptance.  
 - Goal: Achieve F1-score ≥ 0.95 and provide feature-level interpretability to support oncologist decision-making.  
-- Methodology: Follows the **CRISP-DM** process (Business Understanding → Data Understanding → Preparation → Modeling → Evaluation → Deployment).  
+- Methodology: Follows the CRISP-DM process.  
 
 ---
 
