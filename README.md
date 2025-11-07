@@ -62,11 +62,8 @@ breast-cancer-ml-interpretability/
 # Hist & KDE
 ![ROC Curve](report/figures/Feuture_distribution.png)
 
-
 # Boxplots
-![ROC Curve](report/figures/top_features_pairplot.png)
-
-![ROC Curve](report/figures/feature_relationships_scatter_radius_mean.png)
+![ROC Curve](report/figures/boxplots_outlier_detection.png)
 
 # Pair plots
 ![ROC Curve](report/figures/pairwise_relationship_Top4_features.png)
@@ -79,10 +76,6 @@ breast-cancer-ml-interpretability/
 ![ROC Curve](report/figures/6_Models_results.png)
 ![ROC Curve](report/figures/test_results.png)
 
-# ROC AUC
-![ROC Curve](report/figures/roc_curve_logreg.png)
-
-
 # Top 10 Import features
 ![ROC Curve](report/figures/Top10_important_features.png)
 
@@ -90,7 +83,6 @@ breast-cancer-ml-interpretability/
 ## Detailed Error analysis
 # Confusion Matrix
 ![ROC Curve](report/figures/confusion_matrix_logreg.png)
-
 
 # ROC AUC
 ![ROC Curve](report/figures/roc_curve_logreg.png)
