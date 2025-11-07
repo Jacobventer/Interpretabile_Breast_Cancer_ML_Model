@@ -61,16 +61,19 @@ breast-cancer-ml-interpretability/
 
 ## EDA graphs
 # Diagnosis Distribution
-
-<p <img src="report/figures/Class_distribution_of_benign_and_malignant_diagnoses.png" alt="ROC Curve" width="500"/>
+<p align="center">
+  <img src="report/figures/Class_distribution_of_benign_and_malignant_diagnoses.png" alt="ROC Curve" width="500"/>
 </p>
+
 # Hist & KDE
 
-<p <img src="report/figures/Feuture_distribution.png" alt="ROC Curve" width="500"/>
+<p align="center">
+  <img src="report/figures/Feuture_distribution.png" alt="ROC Curve" width="500"/>
 </p>
-# Boxplots
 
-<p <img src="report/figures/boxplots_outlier_detection.png" alt="ROC Curve" width="500"/>
+# Boxplots
+<p align="center">
+  <img src="report/figures/boxplots_outlier_detection.png" alt="ROC Curve" width="500"/>
 </p>
 
 # Pair plots
