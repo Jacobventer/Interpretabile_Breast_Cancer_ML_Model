@@ -66,50 +66,50 @@ breast-cancer-ml-interpretability/
 # EDA graphs
 ## Diagnosis Distribution
 <p align="center">
-  <img src="report/figures/Class_distribution_of_benign_and_malignant_diagnoses.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/Class_distribution_of_benign_and_malignant_diagnoses.png" width="500"/>
 </p>
 
 ## Hist & KDE - Feature Distrubution
 
 <p align="center">
-  <img src="report/figures/Feuture_distribution.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/Feuture_distribution.png" width="500"/>
 </p>
 
 ## Boxplots - Outlier Detection
 <p align="center">
-  <img src="report/figures/boxplots_outlier_detection.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/boxplots_outlier_detection.png" width="500"/>
 </p>
 
 ## Pair plots - Relationship Detection
 <p align="center">
-  <img src="report/figures/pairwise_relationship_Top4_features.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/pairwise_relationship_Top4_features.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="report/figures/feature_relationships_scatter_radius_mean.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/feature_relationships_scatter_radius_mean.png" width="500"/>
 </p>
 
 
 ## Correlation Heatmap
 
 <p align="center">
-  <img src="report/figures/Feature_correlation_heatmap.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/Feature_correlation_heatmap.png" width="500"/>
 </p>
 
 
 ## Model Results
 <p align="center">
-  <img src="report/figures/6_Models_results.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/6_Models_results.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="report/figures/test_results.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/test_results.png" width="500"/>
 </p>
 
 
 ## Top 10 Import features
 <p align="center">
-  <img src="report/figures/Top10_important_features.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/Top10_important_features.png" width="500"/>
 </p>
 
 ---
@@ -117,22 +117,27 @@ breast-cancer-ml-interpretability/
 A detailed error analysis was done to investigate the three misclassified cases. 
 ## Confusion Matrix
 <p align="center">
-  <img src="report/figures/confusion_matrix_logreg.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/confusion_matrix_logreg.png" width="500"/>
 </p>
 
 
 ## ROC AUC
 <p align="center">
-  <img src="report/figures/roc_curve_logreg.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/roc_curve_logreg.png" width="500"/>
 </p>
 
 
 ## FP & FN distribution
 <p align="center">
-  <img src="report/figures/error_analysis_combined.png" alt="ROC Curve" width="500"/>
+  <img src="report/figures/error_analysis_combined.png" width="500"/>
 </p>
 
+---
 
+## Proposed GUI Layout
+<p align="center">
+  <img src="report/figures/GUI_layout" width="500"/>
+</p>
 
 ---
 
