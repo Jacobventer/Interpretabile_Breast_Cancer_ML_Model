@@ -160,7 +160,7 @@ This project successfully developed a highly accurate and interpretable machine 
 ---
 ## Author
 Jaco Venter
----
+
 https://www.linkedin.com/in/jaco-venter-45502a162/
 
 ---
