@@ -15,6 +15,7 @@ The project was completed as part of the Model Engineering  module for the BSc D
 
 ## Final - Optimised model performance
 The final model scored an overall accuracy of 0.9737 and a F1 score of 0.9639 on the test data. Both tumour classes were predicted accurately:
+
 <img width="468" height="123" alt="image" src="https://github.com/user-attachments/assets/ab721106-7944-46fb-81ec-10621539e15d" />
 
 
