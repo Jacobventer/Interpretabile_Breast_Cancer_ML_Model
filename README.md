@@ -69,7 +69,7 @@ breast-cancer-ml-interpretability/
   <img src="report/figures/Class_distribution_of_benign_and_malignant_diagnoses.png" alt="ROC Curve" width="500"/>
 </p>
 
-## Hist & KDE
+## Hist & KDE - Feature distrubution
 
 <p align="center">
   <img src="report/figures/Feuture_distribution.png" alt="ROC Curve" width="500"/>
