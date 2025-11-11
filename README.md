@@ -136,7 +136,7 @@ A detailed error analysis was done to investigate the three misclassified cases.
 
 ## Proposed GUI Layout
 <p align="center">
-  <img src="report/figures/GUI_layout" width="500"/>
+  <img src="report/figures/GUI_layout.png" width="500"/>
 </p>
 
 ---
