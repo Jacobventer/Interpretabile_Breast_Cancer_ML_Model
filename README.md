@@ -69,18 +69,18 @@ breast-cancer-ml-interpretability/
   <img src="report/figures/Class_distribution_of_benign_and_malignant_diagnoses.png" alt="ROC Curve" width="500"/>
 </p>
 
-## Hist & KDE - Feature distrubution
+## Hist & KDE - Feature Distrubution
 
 <p align="center">
   <img src="report/figures/Feuture_distribution.png" alt="ROC Curve" width="500"/>
 </p>
 
-## Boxplots
+## Boxplots - Outlier Detection
 <p align="center">
   <img src="report/figures/boxplots_outlier_detection.png" alt="ROC Curve" width="500"/>
 </p>
 
-## Pair plots
+## Pair plots - Relationship Detection
 <p align="center">
   <img src="report/figures/pairwise_relationship_Top4_features.png" alt="ROC Curve" width="500"/>
 </p>
