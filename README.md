@@ -142,30 +142,32 @@ A detailed error analysis was done to investigate the three misclassified cases.
 ---
 
 ## Model Interpretability
+A core deliverable of this project is model interpretability. The Logistic Regression model provides clear coefficients for each feature, indicating its contribution to the prediction.
 
-The Logistic Regression coefficients were used to rank feature importance.
-The top predictive features included:
+Top 4 Features contributing to a malignant prediction were:
 - radius_se
 - texture_worst
 - concavity_worst
 - area_worst
 
-These correspond to known medical indicators of tumour irregularity and malignancy, reinforcing the model’s reliability and transparency.
+These align with established medical knowledge, where larger size and higher irregularity of cell nuclei are indicators of malignancy.
+For detailed results, visualizations, and a comprehensive error analysis, please see the final report: `reports/final_report.pdf`
 
 ---
 ## Conclusion
-In this case study, an interpretable machine learning model for breast cancer classification was successfully developed. The CRISP-DM methodology was followed from data understanding to deployment planning. 
-Class distribution, outlier detection, feature distribution, correlation heatmap and scatterplots were done during the EDA – Exploratory Data Analysis. It was confirmed that features like the tumour size, irregular shape and texture variation are key indicators of Malignant cancer. This is consistent with established medical knowledge. 
-The data was cleaned and one-hot encoded during the preparation phase. Multiple models were trained and tested on the same data. The performance of the model and the interpretability of the models were weighed to determine the best model for the task.
-The optimized Logistic Regression model achieved the best performance with an overall accuracy of 0.9737 and a F1 score of 0.9639. Model transparency together with an easy to explain model, builds trust with oncologist in the system.
-The proposed GUI shows how a model might be integrated into hospitals. Despite the model's good performance, real world deployment will require periodic retraining to prevent model drift. Future improvements may include more features on the GUI and an integration into a MLOps pipeline for continuous monitoring.
-This project demonstrated that interpretable Machine Learning models can serve as a valuable decision support tool for oncologists. The goal is to assist, not replace expert judgement with reliable, data driven insights.  
+This project successfully developed a highly accurate and interpretable machine learning model for breast cancer classification. The model serves as a trustworthy decision-support tool for oncologists, enhancing their diagnostic process without replacing their expert judgement. 
 
 ---
+## Author
+Jaco Venter
+https://www.linkedin.com/in/jaco-venter-45502a162/
 
+---
 
 ## License
 
 This repository is released for educational and academic purposes only.
 It must not be used for clinical or diagnostic decision-making.
+
+
 
